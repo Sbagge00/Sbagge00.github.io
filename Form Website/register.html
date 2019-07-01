@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+    <head>
+        <title>Sedgwick Claim Search</title>
+        <meta name="description" content="Prototype Website">
+        <meta name="author" content="Stephen Baggett">
+        <!--Javascript-->
+        <script src="scripts\script.js"></script>
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="styles\Main.css">
+
+    </head>
+
+    <header>
+        <!--Logo at top of page-->
+        <img id="logo" src="mysedgwick.png"/>
+    </header>
+
+    <body>
+        <form> 
+			<label for="firstName">FIRST NAME</label>
+            <input type="text" id="firstName" required />
+
+			<label for="lastName">LAST NAME</label>
+            <input type="text" id="lastName" required />
+
+            <label for="email">EMAIL</label>
+            <input type="email" id="username" required />
+
+            <label for="password">NEW PASSWORD</label>
+            <input type="password" name="password">
+			<p>Password must be at least 8 characters and contain at least one upper case
+			character, one number, and one special symbol.</p>
+
+            <input id="button" type="submit" value="Register" onclick="myFunction"/>
+        </form>
+
+
+        <div id="subNavbar">
+            <nav>
+                <ul>
+                    <li><a href=#>Help</a></li>
+                    <li><a href=#>About</a></li>
+                    <li><a href=#>Contact Tech Support</a></li>
+                    <li><a href=#>Privacy Notice</a></li>
+                </ul>
+            </nav>
+            <footer>
+                This website uses logos trademark of Sedgwick Claims Management Services, Inc. and 
+                should not be used for commercial purposes. Based on design of https://claimlookup.com. 
+                Latest build on 6/28/2019.
+            </footer>
+        </div>
+        <img id="globe" src="images/sedgwick.png"/>
+    </body>
+</html>

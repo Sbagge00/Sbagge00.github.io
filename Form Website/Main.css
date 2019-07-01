@@ -1,0 +1,152 @@
+﻿html, body, label, h2, h1, header {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Arial;
+}
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+body {
+    background-image: radial-gradient(#bbbbbb, #cecece);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+form {
+    font-size: 12px;
+    width: 430px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 15px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+form input {
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+form input:focus {
+    border-color: #7fc2e9;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+li {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+a {
+    color: #2d6ca2;
+    text-decoration: underline;
+    font-size: 14px;
+    display: inline;
+
+}
+a:hover {
+    background-color: rgba(255, 250, 149, 0.70);
+    border-radius: 4px;
+}
+form a {
+    display: block;
+    padding: 5px;
+}
+label {
+    margin-top: 20px;
+}
+label, input {
+    display: block;
+}
+input {
+    width: 250px;
+    margin-bottom: 25px;
+}
+input[type=submit] {
+    width: 100px;
+    font-size: 15px;
+}
+#button {
+    color: white;
+    border-style: none;
+    background-color: #2d6ca2;
+    margin: 10px;
+    border-radius: 3px;
+}
+#button:hover {
+    background-color: rgb(122, 163, 198);
+}
+textarea {
+    width: 250px;
+}
+#subNavbar {
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    font-size: 8px;
+}
+footer {
+    font-size: 10px;
+}
+#globe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+ul {
+    padding: 0px;
+}
+#icon {
+    display: inline;
+    float: left;
+    padding-right: 8px;
+    padding-top: 5px;
+}
+
+/*Working on making the page responsive for mobile layout
+@media screen and (max-width: 500px) {
+    body {
+    }
+    form {
+        font-size: 15px;
+        width: 500px;
+        background-color: white;
+        border-radius: 3px;
+        padding: 15px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+        position: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+    }
+    #subNavbar {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #subNavbar a {
+        font-size: 10px;
+        display: block;
+    }
+    ul {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 950px) {
+   form {
+        background-color: white;
+    }
+}*/

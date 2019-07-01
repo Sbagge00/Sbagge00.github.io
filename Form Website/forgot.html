@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+<head>
+    <title>Sedgwick Claim Search</title>
+    <meta name="description" content="Prototype Website">
+    <meta name="author" content="Stephen Baggett">
+    <!--Javascript-->
+    <script src="scripts\script.js"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="styles\Main.css">
+
+</head>
+
+<header>
+    <!--Logo at top of page-->
+    <img id="logo" src="images/mysedgwick.png" />
+</header>
+
+<body>
+    <form>
+        <label for="email">Enter your email address that is linked with your account</label>
+        <input type="email" id="username" required />
+
+        <input onclick="emailPopup()" id="button" type="submit" value="Send email" onclick="myFunction" />
+
+        <p>
+            Access to this information resource is restricted to authorized users only.
+            This information resource may be monitored for administrative and security reasons.
+            By proceeding, you consent to this monitoring. In order to protect the information entrusted to Sedgwick,
+            unauthorized access and/or unauthorized use of this information resource may be prosecuted to the fullest extent of the law.
+        </p>
+    </form>
+    <div id="subNavbar">
+        <nav>
+            <ul>
+                <li><a href=#>Help</a></li>
+                <li><a href=#>About</a></li>
+                <li><a href=#>Contact Tech Support</a></li>
+                <li><a href=#>Privacy Notice</a></li>
+            </ul>
+        </nav>
+        <footer>
+            This website uses logos trademark of Sedgwick Claims Management Services, Inc. and
+            should not be used for commercial purposes. Based on design of https://claimlookup.com.
+            Latest build on 6/28/2019.
+        </footer>
+    </div>
+    <img id="globe" src="images/sedgwick.png" />
+</body>
+</html>
